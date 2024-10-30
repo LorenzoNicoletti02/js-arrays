@@ -11,8 +11,8 @@ const teachers = [
 // 0. Per ogni insegnante stampa in console la frase:
 // [Nome insengante] è l'insegnante in posizione [i]
 for (let i = 0; i < teachers.length; i++) {
-  const currentTeacher = teachers[i]; // Prendi l'elemento che si trova in posizione i
-  console.log(`${currentTeacher} è l'insegnante in posizione`);
+  const currentTeacher = teachers[i];
+  console.log(`${currentTeacher} è l'insegnante in posizione ${i}`);
 }
 
 
